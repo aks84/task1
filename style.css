@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: lightgray;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 80%;
+    margin: auto;
+
+}
+
+header{
+    width: 100%;
+    background-color: cadetblue;
+    background-repeat: no-repeat; 
+    margin: 0 auto;
+    margin-bottom: 15px;
+}
+header>img{
+    width: 100%;
+    height: auto;
+    
+}
+
+.topAd{
+    background-color:#8fbbbc;
+    width: 350px;
+    height: 30px;
+    padding-top: 10px;
+    margin-bottom: 15px;
+    
+}
+.latestNews{
+    width: 39%;
+    float: left;
+    padding-right: .5%;
+    padding-left: 1%;
+}
+.marqueeAd{
+    width: 59%;
+    float: right;
+}
+
+
+
+p{
+    line-height: 150%;
+}
+
+.outCourses>ul{
+    padding-left: 30px;
+}
+
+.outCourses>ul>li{
+    padding: 5px 0px;
+}
+
+table{
+margin-left: 20px;
+}
+
+h1, h2, h3{
+    padding: 10px 0px;
+}
+
+footer{
+    width: 100%;
+    background-color: cadetblue;
+    display: flex;
+    margin-top: 20px;
+    }
+
+footer> div{
+    width: 33%;
+    flex: 1;
+    padding: 10px;
+
+}
+
+
+footer>.footer1>.socalLinks{
+    padding-left: 10px;
+}
+
+footer>.footer1>.socalLinks>li{
+    list-style: none;
+    padding: 5px 0px;
+    
+}
+
+
+footer>.footer1>.address{
+    padding-left: 10px;
+}
+
+.Placemetns{
+    background-image: url(./img/cuteBanner.jpg), url(./img/studends.jpg);
+    background-repeat: no-repeat;
+    width: 95%;
+    height: 110px;
+}
